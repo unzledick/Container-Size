@@ -1,0 +1,236 @@
+{
+    "Server": {
+        "NumberOfServer": 1, 
+        "ServerInfo": [
+            {
+                "ServerID": "wmnet202.cs.nthu.edu.tw", 
+                "CoreInfo": {
+                    "NumberOfCore": 5, 
+                    "Load": 0.62290928
+                }, 
+                "MemInfo": {
+                    "SizeOfMem": 16258772992, 
+                    "CurrUsage": 12855783424, 
+                    "MajorPageFaultCumulative": 642, 
+                    "PageFaultCumulative": 10805890, 
+                    "WorkingSet": 9867780096
+                }, 
+                "DiskInfo": {
+                    "FilesystemLimit": 53660876800, 
+                    "FilesystemUsage": 13195042816
+                }, 
+                "NetworkInfo": {
+                    "ReceivedCumulativeBytes": 3261391157570, 
+                    "ReceivedErrorsCumulativeCounts": 0, 
+                    "SentCumulativeBytes": 291944288835, 
+                    "SentErrorsCumulativeCount": 0
+                }, 
+                "UpTimemsCumulative": 6276302982
+            }
+        ]
+    }, 
+    "Application": [
+        {
+            "ApplicationID": "docker-registry", 
+            "AvgResponseTime": 1.9, 
+            "SLA": "Not Define", 
+            "pod": {
+                "NumberOfPod": 1, 
+                "PodInfo": [
+                    {
+                        "PodID": "docker-registry-1-9kddd", 
+                        "nodeName": "wmnet202.cs.nthu.edu.tw", 
+                        "Contents": {
+                            "CpuLimit": -1, 
+                            "CpuUsage": 0.4656021, 
+                            "MemoryLimit": -1, 
+                            "MemoryUsage": 19357696, 
+                            "MemoryMajorPageFaultsCumulative": 24, 
+                            "MemoryPageFaultsCumulative": 129341, 
+                            "MemoryWorkingSet": 7032832, 
+                            "UpTimemsCumulative": 6276270102
+                        }
+                    }
+                ]
+            }
+        }, 
+        {
+            "ApplicationID": "kubernetes", 
+            "AvgResponseTime": "Not Define", 
+            "SLA": "Not Define", 
+            "pod": {
+                "NumberOfPod": 0, 
+                "PodInfo": []
+            }
+        }, 
+        {
+            "ApplicationID": "router", 
+            "AvgResponseTime": "Not Define", 
+            "SLA": "Not Define", 
+            "pod": {
+                "NumberOfPod": 1, 
+                "PodInfo": [
+                    {
+                        "PodID": "router-1-titpp", 
+                        "nodeName": "wmnet202.cs.nthu.edu.tw", 
+                        "Contents": {
+                            "CpuLimit": -1, 
+                            "CpuUsage": 1.719012, 
+                            "MemoryLimit": -1, 
+                            "MemoryUsage": 114515968, 
+                            "MemoryMajorPageFaultsCumulative": 101, 
+                            "MemoryPageFaultsCumulative": 1939914, 
+                            "MemoryWorkingSet": 24539136, 
+                            "UpTimemsCumulative": 55892565
+                        }
+                    }
+                ]
+            }
+        }, 
+        {
+            "ApplicationID": "heapster", 
+            "AvgResponseTime": 2.31, 
+            "SLA": "Not Define", 
+            "pod": {
+                "NumberOfPod": 1, 
+                "PodInfo": [
+                    {
+                        "PodID": "heapster-6ymhq", 
+                        "nodeName": "wmnet202.cs.nthu.edu.tw", 
+                        "Contents": {
+                            "CpuLimit": 199, 
+                            "CpuUsage": 10.462428846153847, 
+                            "MemoryLimit": 314572800, 
+                            "MemoryUsage": 44969984, 
+                            "MemoryMajorPageFaultsCumulative": 27, 
+                            "MemoryPageFaultsCumulative": 1399521, 
+                            "MemoryWorkingSet": 25608192, 
+                            "UpTimemsCumulative": 5931397886
+                        }
+                    }
+                ]
+            }
+        }, 
+        {
+            "ApplicationID": "influxdb-api", 
+            "AvgResponseTime": "Not Define", 
+            "SLA": "Not Define", 
+            "pod": {
+                "NumberOfPod": 1, 
+                "PodInfo": [
+                    {
+                        "PodID": "influxdb-grafana-8xzha", 
+                        "nodeName": "wmnet202.cs.nthu.edu.tw", 
+                        "Contents": {
+                            "CpuLimit": -2, 
+                            "CpuUsage": 30.237441708333332, 
+                            "MemoryLimit": -2, 
+                            "MemoryUsage": 3133411328, 
+                            "MemoryMajorPageFaultsCumulative": 103, 
+                            "MemoryPageFaultsCumulative": 10012617, 
+                            "MemoryWorkingSet": 3048632320, 
+                            "UpTimemsCumulative": 5931826286
+                        }
+                    }
+                ]
+            }
+        }, 
+        {
+            "ApplicationID": "monitoring-grafana", 
+            "AvgResponseTime": 18.85, 
+            "SLA": "Not Define", 
+            "pod": {
+                "NumberOfPod": 1, 
+                "PodInfo": [
+                    {
+                        "PodID": "influxdb-grafana-8xzha", 
+                        "nodeName": "wmnet202.cs.nthu.edu.tw", 
+                        "Contents": {
+                            "CpuLimit": -2, 
+                            "CpuUsage": 30.237441708333332, 
+                            "MemoryLimit": -2, 
+                            "MemoryUsage": 3133411328, 
+                            "MemoryMajorPageFaultsCumulative": 103, 
+                            "MemoryPageFaultsCumulative": 10012617, 
+                            "MemoryWorkingSet": 3048632320, 
+                            "UpTimemsCumulative": 5931826286
+                        }
+                    }
+                ]
+            }
+        }, 
+        {
+            "ApplicationID": "monitoring-influxdb", 
+            "AvgResponseTime": 19.8, 
+            "SLA": "Not Define", 
+            "pod": {
+                "NumberOfPod": 1, 
+                "PodInfo": [
+                    {
+                        "PodID": "influxdb-grafana-8xzha", 
+                        "nodeName": "wmnet202.cs.nthu.edu.tw", 
+                        "Contents": {
+                            "CpuLimit": -2, 
+                            "CpuUsage": 30.237441708333332, 
+                            "MemoryLimit": -2, 
+                            "MemoryUsage": 3133411328, 
+                            "MemoryMajorPageFaultsCumulative": 103, 
+                            "MemoryPageFaultsCumulative": 10012617, 
+                            "MemoryWorkingSet": 3048632320, 
+                            "UpTimemsCumulative": 5931826286
+                        }
+                    }
+                ]
+            }
+        }, 
+        {
+            "ApplicationID": "experiment-app", 
+            "AvgResponseTime": 117.72, 
+            "SLA": "Not Define", 
+            "pod": {
+                "NumberOfPod": 1, 
+                "PodInfo": [
+                    {
+                        "PodID": "experiment-app-1-35rj1", 
+                        "nodeName": "wmnet202.cs.nthu.edu.tw", 
+                        "Contents": {
+                            "CpuLimit": 500, 
+                            "CpuUsage": 29.88875636363636, 
+                            "MemoryLimit": 314572800, 
+                            "MemoryUsage": 28241920, 
+                            "MemoryMajorPageFaultsCumulative": 87, 
+                            "MemoryPageFaultsCumulative": 905888098, 
+                            "MemoryWorkingSet": 10596352, 
+                            "UpTimemsCumulative": 3347582169
+                        }
+                    }
+                ]
+            }
+        }, 
+        {
+            "ApplicationID": "ticket-monster", 
+            "AvgResponseTime": 10.36, 
+            "SLA": "Not Define", 
+            "pod": {
+                "NumberOfPod": 1, 
+                "PodInfo": [
+                    {
+                        "PodID": "ticket-monster-m9hc7", 
+                        "nodeName": "wmnet202.cs.nthu.edu.tw", 
+                        "Contents": {
+                            "CpuLimit": 500, 
+                            "CpuUsage": 11.211992333333333, 
+                            "MemoryLimit": 1610612736, 
+                            "MemoryUsage": 1046462464, 
+                            "MemoryMajorPageFaultsCumulative": 283, 
+                            "MemoryPageFaultsCumulative": 219392, 
+                            "MemoryWorkingSet": 876683264, 
+                            "UpTimemsCumulative": 171482240
+                        }
+                    }
+                ]
+            }
+        }
+    ], 
+    "Lastest Update time": "17:30:09"
+}
