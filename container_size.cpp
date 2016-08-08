@@ -267,7 +267,7 @@ int main(){
 
 	//select best container size
 	choose_size(cpu_limit,mem_limit,day1_cpu_usage,day1_mem_usage,62,day1_result);
-	//choose_size(cpu_limit,mem_limit,day2_cpu_usage,day2_mem_usage,68,day2_result);
+	choose_size(cpu_limit,mem_limit,day2_cpu_usage,day2_mem_usage,68,day2_result);
 	//print_record();
 	
 	return 0;  
